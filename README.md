@@ -20,6 +20,10 @@ Features
 * Optional labels for buttons in `FloatingActionsMenu`.
 
   ![Demo](screenshots/labels.png)
+* To change the menu icon ` fab:fab_bitmap="@drawable/club_icon_ubac"` and To change the button rotation `fab:fab_rotation="180"`
+
+  ![Alt text](http://7tebhw.com1.z0.glb.clouddn.com/1431136259187.png)
+
 
 Usage
 =====
