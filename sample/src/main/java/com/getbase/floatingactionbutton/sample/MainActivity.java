@@ -1,8 +1,5 @@
 package com.getbase.floatingactionbutton.sample;
 
-import com.getbase.floatingactionbutton.FloatingActionButton;
-import com.getbase.floatingactionbutton.FloatingActionsMenu;
-
 import android.app.Activity;
 import android.graphics.drawable.ShapeDrawable;
 import android.graphics.drawable.shapes.OvalShape;
@@ -10,6 +7,9 @@ import android.os.Bundle;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Toast;
+
+import cc.trity.floatingactionbutton.FloatingActionButton;
+import cc.trity.floatingactionbutton.FloatingActionsMenu;
 
 public class MainActivity extends Activity {
   @Override

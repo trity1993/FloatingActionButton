@@ -1,4 +1,4 @@
-package com.getbase.floatingactionbutton;
+package cc.trity.floatingactionbutton;
 
 import android.animation.AnimatorSet;
 import android.animation.ObjectAnimator;

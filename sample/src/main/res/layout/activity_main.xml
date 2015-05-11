@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <com.getbase.floatingactionbutton.FloatingActionButton
+    <cc.trity.floatingactionbutton.FloatingActionButton
         android:id="@+id/pink_icon"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -24,7 +24,7 @@
         style="@style/menu_labels_style"
         android:layout_marginBottom="48dp"/>
 
-    <com.getbase.floatingactionbutton.AddFloatingActionButton
+    <cc.trity.floatingactionbutton.AddFloatingActionButton
         android:id="@+id/semi_transparent"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -35,7 +35,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="16dp"/>
 
-    <com.getbase.floatingactionbutton.FloatingActionButton
+    <cc.trity.floatingactionbutton.FloatingActionButton
         android:id="@+id/setter"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -43,7 +43,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="16dp"/>
 
-    <com.getbase.floatingactionbutton.AddFloatingActionButton
+    <cc.trity.floatingactionbutton.AddFloatingActionButton
         android:id="@+id/normal_plus"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -57,7 +57,7 @@
         android:layout_marginLeft="16dp"
         android:layout_marginStart="16dp"/>
 
-    <com.getbase.floatingactionbutton.FloatingActionsMenu
+    <cc.trity.floatingactionbutton.FloatingActionsMenu
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
@@ -72,14 +72,14 @@
         fab:fab_labelStyle="@style/menu_labels_style"
         fab:fab_labelsPosition="right">
 
-        <com.getbase.floatingactionbutton.FloatingActionButton
+        <cc.trity.floatingactionbutton.FloatingActionButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             fab:fab_colorNormal="@color/white"
             fab:fab_title="Label on the right"
             fab:fab_colorPressed="@color/white_pressed"/>
 
-        <com.getbase.floatingactionbutton.FloatingActionButton
+        <cc.trity.floatingactionbutton.FloatingActionButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             fab:fab_colorNormal="@color/white"
@@ -87,9 +87,9 @@
             fab:fab_title="Another one on the right"
             fab:fab_colorPressed="@color/white_pressed"/>
 
-    </com.getbase.floatingactionbutton.FloatingActionsMenu>
+    </cc.trity.floatingactionbutton.FloatingActionsMenu>
 
-    <com.getbase.floatingactionbutton.FloatingActionsMenu
+    <cc.trity.floatingactionbutton.FloatingActionsMenu
         android:id="@+id/multiple_actions"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -106,7 +106,7 @@
         android:layout_marginRight="16dp"
         android:layout_marginEnd="16dp">
 
-        <com.getbase.floatingactionbutton.FloatingActionButton
+        <cc.trity.floatingactionbutton.FloatingActionButton
             android:id="@+id/action_a"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -114,7 +114,7 @@
             fab:fab_title="Action A"
             fab:fab_colorPressed="@color/white_pressed"/>
 
-        <com.getbase.floatingactionbutton.FloatingActionButton
+        <cc.trity.floatingactionbutton.FloatingActionButton
             android:id="@+id/action_b"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -122,9 +122,9 @@
             fab:fab_title="Action with a very long name that won\'t fit on the screen"
             fab:fab_colorPressed="@color/white_pressed"/>
 
-    </com.getbase.floatingactionbutton.FloatingActionsMenu>
+    </cc.trity.floatingactionbutton.FloatingActionsMenu>
 
-    <com.getbase.floatingactionbutton.FloatingActionsMenu
+    <cc.trity.floatingactionbutton.FloatingActionsMenu
         android:id="@+id/multiple_actions_down"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -141,14 +141,14 @@
         android:layout_marginRight="16dp"
         android:layout_marginEnd="16dp">
 
-        <com.getbase.floatingactionbutton.FloatingActionButton
+        <cc.trity.floatingactionbutton.FloatingActionButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             fab:fab_colorNormal="@color/white"
             fab:fab_colorPressed="@color/white_pressed"
             fab:fab_size="mini"/>
 
-        <com.getbase.floatingactionbutton.FloatingActionButton
+        <cc.trity.floatingactionbutton.FloatingActionButton
             android:id="@+id/button_remove"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -156,16 +156,16 @@
             fab:fab_colorPressed="@color/white_pressed"
             fab:fab_title="Click to remove"/>
 
-        <com.getbase.floatingactionbutton.FloatingActionButton
+        <cc.trity.floatingactionbutton.FloatingActionButton
             android:id="@+id/button_gone"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             fab:fab_colorNormal="@color/white"
             fab:fab_colorPressed="@color/white_pressed"/>
 
-    </com.getbase.floatingactionbutton.FloatingActionsMenu>
+    </cc.trity.floatingactionbutton.FloatingActionsMenu>
 
-    <com.getbase.floatingactionbutton.FloatingActionsMenu
+    <cc.trity.floatingactionbutton.FloatingActionsMenu
         android:id="@+id/multiple_actions_left"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -182,20 +182,20 @@
         android:layout_marginRight="16dp"
         android:layout_marginEnd="16dp">
 
-        <com.getbase.floatingactionbutton.FloatingActionButton
+        <cc.trity.floatingactionbutton.FloatingActionButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             fab:fab_colorNormal="@color/white"
             fab:fab_colorPressed="@color/white_pressed"/>
 
-        <com.getbase.floatingactionbutton.FloatingActionButton
+        <cc.trity.floatingactionbutton.FloatingActionButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             fab:fab_colorNormal="@color/white"
             fab:fab_colorPressed="@color/white_pressed"
             fab:fab_size="mini"/>
 
-        <com.getbase.floatingactionbutton.FloatingActionButton
+        <cc.trity.floatingactionbutton.FloatingActionButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:visibility="gone"
@@ -203,9 +203,9 @@
             fab:fab_colorPressed="@color/white_pressed"
             fab:fab_size="mini"/>
 
-    </com.getbase.floatingactionbutton.FloatingActionsMenu>
+    </cc.trity.floatingactionbutton.FloatingActionsMenu>
 
-    <com.getbase.floatingactionbutton.FloatingActionButton
+    <cc.trity.floatingactionbutton.FloatingActionButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/setter_drawable"
