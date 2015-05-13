@@ -31,7 +31,7 @@ Just add the dependency to your `build.gradle`:
 
 ```groovy
 dependencies {
-    compile 'com.getbase:floatingactionbutton:1.9.0'
+    compile 'cc.trity.floatingactionbutton:library:1.0.0'
 }
 ```
 
